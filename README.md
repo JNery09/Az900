@@ -20,4 +20,19 @@ Um recurso intressante é o Bation que serve como um Jump Server - uma rede segu
 Em alguns casos podem aparecer em versão previa, que é quando oproduto esta sendo testado em fase de testes, que é algo que microsoft esta experimentando
 
 
- 
+
+----------------------------------------------------------------------------
+
+
+[Construindo Arquiteturas no Azure]
+
+--------------------------------------
+
+Estrutura da Microsoft possui uma estrutura giganteca onde esta em mais de 60 resgioes espalhados em todo o globo,
+sendo possivel ver os locais atraves do link https://datacenters.microsoft.com/globe/explore/
+Onde mostra todas as locazições, replicação entre regioes, fazer um tuor pelo datacenter, etc
+
+Bem interessante é grupo de recursos onde é possivel agrupar todos os serviços de acordo um determinado projeto facilitando organiza~]ao e pagamentos
+no grupo de recursos é possivel fzer um gerencimento de tudo que esta nele send possivel ver um organograma de recrusos e suas dependencias
+
+
