@@ -35,4 +35,74 @@ Onde mostra todas as locazições, replicação entre regioes, fazer um tuor pel
 Bem interessante é grupo de recursos onde é possivel agrupar todos os serviços de acordo um determinado projeto facilitando organiza~]ao e pagamentos
 no grupo de recursos é possivel fzer um gerencimento de tudo que esta nele send possivel ver um organograma de recrusos e suas dependencias
 
+----------------------------------------------------------------------------
+
+
+[Configurando Recursos e Dimensionamento em maquinas Virtuais Azure]
+
+--------------------------------------
+
+Criação de Maquinas Virtuais
+Onde existe algumas opções obrigatorias
+
+
+Grupo de Recrusos - local onde iremos consentrar todos os itens do mesmo projeto
+None da naquina - Nome de Identificação
+Região - local onde a mauqina sera criada
+Zona de disponibilidde - configração de redundancia da maquina em caso de falha
+Imagem - sistema operacional que sera instalado
+
+*spot azure - recursos compartilhados com a Azure onde o valor de uso é bem inferior ao normal mais caso a Azure precise de recursos ira tirar dessa VM, desligando ela sem aviso previo
+
+Tamanho - CPU, Memoria, onde é selcionado de acordo a necessidade da VM com isso valores mudam
+
+Criação do usuario e senha de usuario da maquina
+
+Disco - Selciona o tamanho do armazenamento que sera usado pela VM tendo a opção de elecionar o tipo de disco que deseja uzar disoc rapido ou lento
+habilitar a opção de remover disco ao exluir a vm
+
+Rede
+Criação do nome da rede e configurações de IP e mascara
+habilitar a opção de remover a placa de rede ao exluir a vm
+
+Gerenciamento
+
+opção de integrar o azure ad como forma de autenticação
+possivel habilitar o desligamento automatico da VM
+
+Backup
+podendo ser habilitado e fazer uma rotina
+
+Monitoramento
+habilitar a regra e selecionar o theshoud de cada recurso e criar alertas
+
+
+---
+
+Area de trabalho dentro de Azure
+
+Possivel criar uma imagem padrão, e a pessoa so conectada com os dados do Entra Id
+
+---
+
+Azure Function
+Aplicativos de vunções
+
+onde é possivel usar 
+
+.NET
+Node.js
+Pyton
+Java
+PowerShell Core
+
+
+
+
+
+
+
+
+
+
 
