@@ -96,12 +96,49 @@ Pyton
 Java
 PowerShell Core
 
+----------------------------------------------------------------------------
+
+
+[Dominando o Armazenamento na Azure]
+
+--------------------------------------
+Armazenamento de Redundancia
+
+LRS - Local - durabilidade 11 noves
+ZRS - Zona - durabilidade 12 noves
+GRS - Geograph - durabilidade 16 noves
+GZRS - Zona Geograph - durabilidade 16 noves
+
+
+Tipos de Storage Azure
+
+Blobs                 -> Arquivos aleatorios     -> accont.blob.core.windows.net
+Data Lake             -> volmes estruturados     -> accont.dfs.core.windows.net
+Arquivos Azure        -> Arquivos para acesso    -> accont.file.core.windows.net
+Armazenamento Fila    -> Fila de armazenamento   -> accont.quiue.core.windows.net
+Armazenamento Tabela  -> tabela de dados         -> accont.table.core.windows.net
 
 
 
+Tipos de Acesso
+
+Frequente (Quente) - Acesso frequente aos arquivos
+Esporatico (Medio) - Acesso de edição de minio 30 dias
+Frio - Acesso de edição de minino 60 dias
+Arquivo Morto - Acesso de edição de minimo 90 dias 
 
 
+---------
 
+Migração Azure
+
+* Azure Data Box - Apliance de armazenamento proprio da Azure que tem a capacidade de armazenamento de 80TB
+
+* AzCopy - Realização de tranferencia de arquivos para arqmazenmento Blob ou arquivos em linha de comando para Azure - *UniDirecional*
+
+* Gerenciador de Armazenamento Azure - Mesmo principio do AzCopy so que com interação Grafica para realização da tranferencia
+
+* Sincronização de arquivos do Azure - Realiza o sincronismo entre os ambiente Nuvem e local onde a copia é dos dois lados - *BiDirecional*
 
 
 
