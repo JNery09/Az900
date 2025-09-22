@@ -141,5 +141,65 @@ Migração Azure
 * Sincronização de arquivos do Azure - Realiza o sincronismo entre os ambiente Nuvem e local onde a copia é dos dois lados - *BiDirecional*
 
 
+----------------------------------------------------------------------------
 
+
+[Entendendo sobre Segurança e Identidade na Azure]
+
+--------------------------------------
+
+Microsoft Entra ID
+
+Armazenamento de usuarios no ambiente em Nuvem, para ter o acesso ao recurso o tenant deve possuir a licença Primium P1 o P2
+
+Entra ID representa serviços de autenticação da microsoft fazendo a autenticação dos softwares e outros cadastrtos
+
+* Logon Unicao (SSO)
+* Gerenciamento de aplicativos
+* Gerenciamento de Dispositivos
+
+Fazendo a sincronização dos usuarios onpremisses para o ambiente em Nuvem, MAS NÂO FAZ da nuvem para onPremisses
+
+Autenticação
+  Identifica a pessoa ou serviço solicita as credenciais de acesso, controle de acesso seguro
+Autorização
+  Determina Nivel de acesso de cada conta, definindo quais dados ponde ser acessados
+
+--------
+
+MFA
+
+Segurança adicional exigindo 2 elementos de autenticação, funciona
+
+Algo que voce sabe > algo que possui > algo que voce é
+
+
+-------
+
+Acesso condicional
+
+Faz um monitoramento se o processo de autenticação esta caorreto ou se precisa ser bloqueado
+
+----
+
+Confiança Zero
+
+Desconfia de todos e ão confia em ninguem
+
+Camadas de Proteção
+Dados > Aplicativo > Computação > Rede > Perimetr > Identidade de Acesso > Segurança Fisica
+
+------
+
+Defender para Nuvem
+
+Serviço de monitormento contra ameaças do Azure, funciona como um termometro que mostra o quão seguro esta a cloud, possivel conectar 
+outras Cloud Provider e fazer o gerenciamenti de segurança
+
+Visão de segurança com recomendação de segurança baseada em nivel
+
+Serviços
+  Fornece recomendação de segurança
+  Detecta e bloqueia malwares
+  Analisa e identifica potenciais ataques
 
