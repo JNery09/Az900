@@ -203,3 +203,57 @@ Serviços
   Detecta e bloqueia malwares
   Analisa e identifica potenciais ataques
 
+
+----------------------------------------------------------------------------
+
+
+[Otimizando Custos no Azure]
+
+--------------------------------------
+
+* Fatores que aumentam os custos
+1 - Tipo de Recurso
+  Os custos são especificos do recurso, portanto, o us de um medidor rastreia o numero de medidores associados a um recurso, dependendo do recurso
+  
+2 - Consumo
+  Com um modelo pago confore o uso, consumo do recurso aumenta o custos, maiores geradores de custos
+
+3 - Manutenção
+  Monitorar seu volume do azure e manter seu ambiente seguro, pode ajudar a identifiicar e reduzir os custos não necessarios
+
+4 - Área Geografica
+  O mesmo tipo de recurso pode ter custos diferentes dependendo de cada local
+  
+5 - Trafego de Rede
+  Embora algumas transferencias de dados de entrada sejam gratuitas, os custos paara movimentação entre regioes é pago
+  
+6 - Assinatura
+  O tipo e a configuração da assinatura pode afetar os custos
+
+--------------------------------------
+
+* Azure Marketplace
+
+Adicionar ao ambiente recursos ou serviços de outros provedores, adicionar recursos não ntivos da microsoft Azure, caso gere algum problema e precise acionar o fabricante a Azure não fornce suporte.
+
+
+* Calculadora
+
+Ferramenta que ajuda a estimar os custos de novos recursos
+    - Região
+    - Camada
+    - Tipo de Cobrança
+    - Opção de Suporte
+    - Modelo Dev Test
+
+* TCO
+Ferramenta para estimar economia de custos para migração para o Azure
+
+Migração do ambinete local para nuvem
+
+* Marcas os Tags
+Não são obrigatórias e não são herdadas
+
+Serve como uma identificação do recurso - taxonomia logica 
+Uteis para reunir informações de cobrança
+
