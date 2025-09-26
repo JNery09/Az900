@@ -292,9 +292,9 @@ Função de proteger recursos do Azure de exclusão ou modificações acidental
 Gerencia o bloquio apartir da assinatra, indo para grupos de recursos em diante
 Se é colocado bloqueio no recurso de grupo - tudo dentro do recurso será bloqueado - o bloqueio é herdado para todos
 
-Tipos       -  Ler     - Atualizar -  Excluir
-Excluir     -  SIM     -  SIM      -  NÂO
-ReadOnly    -  SIM     -  NÂO      -  NÂO
+    Tipos       -  Ler     - Atualizar -  Excluir
+    Excluir     -  SIM     -  SIM      -  NÂO
+    ReadOnly    -  SIM     -  NÂO      -  NÂO
 
 ReadOnly - não consegue mudar o status da maquina, caso precise ligar ou desligar ou mudar algum recurso não é possivel (Edição / Atualização)
 
