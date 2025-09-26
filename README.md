@@ -257,3 +257,46 @@ Não são obrigatórias e não são herdadas
 Serve como uma identificação do recurso - taxonomia logica 
 Uteis para reunir informações de cobrança
 
+
+----------------------------------------------------------------------------
+
+
+[Gerenciando Politicas em Acessos do Azure]
+
+
+--------------------------------------
+
+* BluePrints, Politicas e Bloqueio de Recursos
+
+
+*- Azure Police
+Ajuda a impor padrões organizacionais e avaliar conformidade, fornece governança e consistência de recursos com conformidade regulatória, segurança, custo e gerenciaento
+
+A regra estabelecida é aplicada independentemente de quem tente realizar outras ações.
+exemplo: bloqueio de região para criação de recursos foi implementado, ninguem vai conseguir criar novos recursos em regioes que foram bloqueadas independente do nivel de acesso
+
+A politica pode ficar com 3 status
+
+      Mon-Compliant - Politica foi aplicada com recursos ja existentes divergentes da police
+      Remediation - Validar tudo que já existe se algo não estiver de acordo a police ira ajustar - ATENÇÂO AO CRIAR
+      Compliant - Todos os recursos da Police estão OK
+
+Police > Gerenciamento de Recursos = Padronização
+
+
+------------------------
+
+*- Bloqueio de Recursos
+Função de proteger recursos do Azure de exclusão ou modificações acidental
+
+Gerencia o bloquio apartir da assinatra, indo para grupos de recursos em diante
+Se é colocado bloqueio no recurso de grupo - tudo dentro do recurso será bloqueado - o bloqueio é herdado para todos
+
+Tipos       -  Ler     - Atualizar -  Excluir
+Excluir     -  SIM     -  SIM      -  NÂO
+ReadOnly    -  SIM     -  NÂO      -  NÂO
+
+ReadOnly - não consegue mudar o status da maquina, caso precise ligar ou desligar ou mudar algum recurso não é possivel (Edição / Atualização)
+
+
+
