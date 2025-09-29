@@ -341,4 +341,40 @@ Comandos nativos Microsoft onde so funcionam dentro do Azure, sendo uma linguage
 
 
 
+----------------------------------------------------------------------------
+
+
+[Ferramentas de Monitoramento]
+
+
+--------------------------------------
+
+
+*- Assistente do Azure
+
+Ferramenta nativa de nuvem que ajuda analisar os recursos, faz [recomendações] com base em boas praticas para otimizar as impantações do Azure
+
+Topicos importantes
+
+  * Confiabilidade
+  * Segurança
+  * Desempenho
+  * Custo
+  * Excelencia Operacional
+
+Coleta todas essas informaççoes e canaliza em um unico local para que seja informado a malhor tratativa para ser realizada
+O assistente serve como uma fonte de dados, não apenas para pesquisa mas tambem para, entendimento, gerenciamento e validação do que não se esta fazendo corretamente
+
+
+*- Intergridade Serviço Azure
+
+É uma [coleção de serviços] que mantem você nformado sobre o status geral do Azure. informando possiveis degradações de serviços no Azure.
+Status do Azure: Visão global da integridade de todos s serviços do Azure. em todo o mundo
+
+
+
+*- Azure Monitor
+
+Maximiza a disponibilidade e o desempenho de aplicativos e serviços coletando, analizando e tomando decições com base em [telemetria da nuvem] e ambiente local
+
 
