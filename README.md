@@ -300,3 +300,45 @@ ReadOnly - não consegue mudar o status da maquina, caso precise ligar ou deslig
 
 
 
+----------------------------------------------------------------------------
+
+
+[Ferramentas de Gerenciamento e Implementação]
+
+
+--------------------------------------
+
+Ferramentas para interagir com o Azure
+
+* Portal Azure
+* Azure Cloud Shell                  | Para Execução necessario ter uma storage account assoacia a conta
+* Power Shell                        | Tanto o PowerShell eo CLI, possuem a mesma função
+* CLI - Interfaxe linha de comando   |
+
+
+*- Azure ARC
+
+Uma ferramenta disponivel no potal com funções especificas, pois se trata de uma ferramenta de gestão multcloud, se faz o gerenciamento de recursos que estão fora do Azure
+Principal função gerenciar recursos que estão em outros Providers em um uniico local
+
+    * Painel Unico de Gerenciamento
+    * Praticas Nativas de nuvem
+    * Controle de Acesso baseado em função - RBAC
+    * Segurança e Conformidade
+
+
+*ARC - Serve somente para gerenciar maquinas e recursos que estaão fora do Azure.
+
+
+*- ARM model
+Models ARM que são arquivos em JSON que modem ser usados para criar infraestrutura dentro do Azure
+
+*- Bicep
+
+LINK - https://azure.github.io/bicep/
+
+Comandos nativos Microsoft onde so funcionam dentro do Azure, sendo uma linguagem de programação mais amigavel para automação de recursos
+
+
+
+
